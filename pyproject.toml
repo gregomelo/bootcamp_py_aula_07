@@ -13,6 +13,12 @@ pydantic = "^2.10.5"
 [tool.poetry.group.dev.dependencies]
 commitizen = "^4.1.0"
 pre-commit = "^4.0.1"
+black = "^24.10.0"
+isort = "^5.13.2"
+autopep8 = "^2.3.2"
+pydocstyle = "^6.3.0"
+flake8 = "^7.1.1"
+flake8-bugbear = "^24.12.12"
 
 [build-system]
 requires = ["poetry-core"]
