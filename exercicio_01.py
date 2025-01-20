@@ -39,11 +39,11 @@ def calcular_media(valores: List[float]) -> Optional[float]:
     """
 
     @validate_call
-    def executar(valores: List[float]) -> float:
+    def _executar(valores: List[float]) -> float:
         return sum(valores) / len(valores)
 
     try:
-        return executar(valores)
+        return _executar(valores)
     except ValidationError:
         print("Erro: valores deve ser uma lista de números.")
         return None
